@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+ul, li
+{
+	list-style:none outside none;
+	margin:0;
+	padding:0;
+}
+.ttts ul li
+{
+	border-bottom:1px solid #eee;
+	padding:10px 0 10px 20px;
+}
+.p-item .form-group
+{
+	margin-bottom:5px !important;
+}
+.txt-upcase
+{
+	text-transform:uppercase;
+}
+.txt-italic
+{
+	font-style:italic;
+}
+.p-item ul li
+{
+	padding-left:20px;
+	padding-top: 13px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	/*background:#E4E7EA;*/
+	border:1px dashed #5BC0DE;
+}
+.b-btm
+{
+	border-bottom:2px solid #eee;
+}
+.circle-1 {
+    background:#809fff radial-gradient(circle at 8px -12px , white 8%, #3889CC 38px) repeat scroll 50% center;
+    border: 3px solid white;
+    border-radius: 50%;
+    color: white;
+    display: table-cell;
+    font-size: 2.5em;
+    font-weight: bold;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 60px;
+}
+.circle {
+    background:#eeeff1 radial-gradient(circle at 18px -1px , white 8%, #eeeff1 40px) repeat scroll 50% center;
+    border: 3px solid #c1c4c8;
+    border-radius: 50%;
+    color: #9c9fa4;
+    display: table-cell;
+    font-size: 2.5em;
+    font-weight: bold;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    width: 60px;
+}
+.txt-active
+{
+	color:#1f77c0;
+}
+label.circle:hover
+{
+	border:3px solid #5fa1d7;
+	color:#1f77c0;
+}
+.select2-container .select2-choice
+{
+	line-height:20px !important;
+}
+.select2-container .select2-choice .select2-arrow b {
+    background: rgba(0, 0, 0, 0) url("../images/droparrows.png") no-repeat scroll 0 12px !important;
+}
+.cfm .form-group {
+    margin-bottom: 0px;
+}
+.bodyfix-main
+{
+	background: #e4e7ea none repeat scroll 0 0;
+    min-height: 800px;
+}
+.header-schl {
+    border-bottom: 1px solid #d7d7d7;
+    padding: 18px;
+}
+
+/*.header-schl img {
+    max-width: 1011px;
+    height:100px;
+    line-height: 100px;
+    text-align: center;
+    color: #08406f;
+    font-size: 25px;
+}*/
+
+.payment .rdio input[type="radio"]:disabled + label
+{
+	color:#000;
+}
+.fixfoot
+{
+	color: white;
+    margin: 0 auto;
+    max-width: 1050px;
+    min-height: 70px;
+    padding: 25px;
+    text-align: center;
+	background:#08406F;
+}
